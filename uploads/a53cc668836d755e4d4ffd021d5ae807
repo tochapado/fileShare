@@ -1,0 +1,232 @@
+alias "+djump" "+duck; +jump"
+alias "-djump" "-duck; -jump"
+alias "lock" "+attack"
+alias "left" "+moveleft; +forward; -moveright"
+alias "right" "+moveright; +forward; -moveleft"
+
+bind "9" "lock"
+
+bind "4" "use weapon_hegrenade;use weapon_decoy"
+bind "f" "use weapon_flashbang"
+bind "c" "use weapon_smokegrenade"
+bind "x" "use weapon_incgrenade;use weapon_molotov"
+
+bind "w" "+forward;r_cleardecals"
+bind "a" "+moveleft;r_cleardecals"
+bind "s" "+back;r_cleardecals"
+bind "d" "+moveright;r_cleardecals"
+bind "MOUSE1" "+attack;r_cleardecals"
+bind "MOUSE2" "+attack2;r_cleardecals"
+
+bind "j" "crosshair 0"
+bind "k" "cl_crosshairstyle 1; crosshair 1; cl_crosshaircolor 3"
+bind "l" "cl_crosshairstyle 4; crosshair 1; cl_crosshaircolor 5"
+
+bind "q" "lastinv;r_cleardecals"
+bind "r" "+reload;r_cleardecals"
+
+bind "F1" "buy famas; buy galilar; buy vest; buy defuser"
+bind "F2" "buy deagle; buy vest; buy defuser"
+bind "F3" "buy ssg08; buy vest; buy defuser; buy p250"
+bind "F6" "mp_humanteam any; game_mode 0; game_type 3; map workshop\368026786\aimtraindriving_sf"
+bind "F7" "mp_humanteam any; game_mode 0; game_type 3; map workshop\training_aim\training_aim_dark"
+bind "F8" "disconnect"
+bind "F9" "map workshop\243702660\aim_botz"
+
+bind "SPACE" "+djump"
+bind "MWHEELDOWN" "+jump"
+
+bind "n" "+jump;-attack;-jump"
+
+bind "t" "+lookatweapon;r_cleardecals"
+
+bind "u" "messagemode2"
+bind "v" "+voicerecord"
+bind "y" "messagemode"
+
+bind "," "left"
+bind "." "right"
+
+bind "-" "weapon_accuracy_nospread 0; say vesgo"
+bind "=" "weapon_accuracy_nospread 1; say aim"
+
+bind "PGUP" "volume 1"
+bind "PGDN" "volume 0"
+
+bind "\" "toggleconsole"
+
+cl_bob_lower_amt "5"
+cl_bobamt_lat "0.1"
+cl_bobamt_vert "0.1"
+
+cl_crosshair_drawoutline "0"
+cl_crosshairalpha "255"
+cl_crosshaircolor "5"
+cl_crosshaircolor_r "0"
+cl_crosshaircolor_g "255"
+cl_crosshaircolor_b "0"
+cl_crosshairdot "1"
+cl_crosshairgap "-6"
+cl_crosshairgap_useweaponvalue "0"
+cl_crosshairsize "0"
+cl_crosshairstyle "4"
+cl_crosshairthickness "1"
+cl_crosshairusealpha "1"
+
+cl_crosshair_sniper_width "2.5"
+cl_crosshair_outlinethickness "0"
+
+cl_fixedcrosshairgap "-6"
+
+cl_radar_always_centered "0"
+cl_radar_scale "0.3"
+cl_hud_radar_scale "1.15"
+cl_radar_icon_scale_min "0.4"
+cl_radar_rotate "1"
+cl_radar_square_with_scoreboard "1"
+
+cl_righthand "0"
+
+fps_max "200"
+fps_max_menu "30"
+
+m_customaccel "0"
+m_customaccel_exponent "1"
+m_customaccel_max "0"
+m_customaccel_scale "0"
+m_filter "0"
+m_mouseaccel1 "0"
+m_mouseaccel2 "0"
+
+mat_monitorgamma "1.600000"
+
+net_graph "1"
+net_graphproportionalfont "0"
+
+r_dynamic "0"
+r_eyegloss "0"
+r_eyemove "0"
+r_eyeshift_x "0"
+r_eyeshift_y "0"
+r_eyeshift_z "0"
+r_eyesize "0"
+
+r_drawstaticprops "1"
+
+sensitivity "0.6"
+
+viewmodel_fov "60"
+viewmodel_presetpos "1"
+
+clear
+
+echo ............................
+echo ............................
+echo ````````````````````
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``
+echo ``````````````BBBB``````````````````````````````1111``
+echo ``````````````BBBB``````````````````````````1111BBBBB1``
+echo ``````````````BBBBBBBBBBBBBBB111111111BBBB111`````1111``
+echo ``````````````BBBBBBBBBBBBBBBBBBBBBBBBBBBB``
+echo ``````````````BBBBBBBBBBBB1`````BB1```1BBB``
+echo ``````````````BBBBBBBBBBB1``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ``````````````BBBBBBB``
+echo ````BBBBBBBBBBBBBBBBB``
+echo ````BBBBBBBBBBBBBBBBB``
+echo ````BBBBBBBBBBBBBBBBB``
+echo ````1BBBBBBBBBBBBBBBB``
+echo `````1BBBBBBBBBBBBBBB``
+echo ``````1BBBBBBBBBBBBBB``
+echo ``````1BBBBBBBBBBBBBB``
+echo ``````1BBBBBBBBBBBBBB``
+echo ```````1BBBBBBBBBBBBB``
+echo ```````1BBBBBBBBBBBBB1``
+echo ```````1BBBBBBBBBBBBBBB1``
+echo ```````1BBBBBBBBBBBBBBBBB1``
+echo ```````1BBBBBBBBBBBBBBBBBBB1``
+echo ```````1BBBBBBBBBBBBBBBBBBBB``
+echo ```````1BBBBBBBBBBBBBBBBBBBB``
+echo ```````1BBBBBBBBBBBBBBBBBBBB``
+echo ``BBBBBBBBBBBBBBBBBBBBBBBBBB``
+echo ``BBBBBBBBBBBBBBBBBBBBBBBBBB``
+echo ``BBBBBBBBBBBBBBBBBBBBBBBBBB``
+echo ```````BBBBBBBBBBBBBBBBBBBBB``
+echo ```````BBBBBBBBBBBBBBBBBBBBB``
+echo ```````BBBBBBBBBBBBBBBBBBBBB``
+echo ```````BBBBBBBBBBBBBB``1BBBB``
+echo ```````BBBBBB`BBBBBBB```1BBB``
+echo ```````BBBBBB`BBBBBBB````1BB``
+echo ```````BBBBBB`BBBBBBB```1BBB``
+echo ```BBBBBBBBBB`BBBBBBBBBBBBBB``
+echo ```BBBBBBBBBB`1BBBBBBB1``1BB``
+echo ```BBBBBBBBBB``1BBBBB1``1BBB``
+echo ```````BBBBBB````1BBBBBBBBBBB``
+echo ```````BBBBBB````1BBBBBBBBBB``
+echo ```````BBBBBB`````1BBBBBBBBB1``
+echo ```````BBBBBB`````1BBBBBBBBBBB1````````111
+echo ```````1BBBBB``````1BBBBBBBBBBBBBBBBBBBBBB1``
+echo ```````````````````1BBB1``1BBBBBBBBBBBBBBB1``
+echo ```````````````````1BBB```````1BBBBBBBBBB1``
+echo ````````````````````1BB`````````````1BBB1``
+echo ````````````````````1BB1```
+echo ````````````````````1BBBBB1``
+echo ````````````````````1BBBB1``
+echo ```````````````BBBB`1BBBB1``
+echo ```````````````BBBBBBBBBBB1``
+echo ```````````````BBBBBBBBBBBB1``
+echo ```````````````BBBBBBBBBBBBB1``
+echo ```````````````BBBBBBBBBBBBBB1``
+echo ```````````````BBBBBBBBBBBBBBB1``
+echo ```````````````BBBBBBBBBBBBBBBB1``
+echo ```````````````BBBBBBBBBBBB`1BBB1``
+echo ```````````````BBBBBBBBBBBB``1BBB1``
+echo ```````````````BBBBBBBBBBBB```1BBB1``
+echo ```````````````BBBBBBBBBBBB```BBBBBB1``
+echo ```````````````BBBBBBBBBBBBBBBBBBBB1````1``
+echo ```````````````1BB1BBBBBBBBBBBBBBBBBBBBBB``
+echo ```````````````````BBBBBBBBBBBBBBBBBBBBB1``
+echo ```````````````````BBBBBBBBBBBBBBBBBBBBB1``
+echo ```````````````````BBBBBBBBBBBBBBBBBBBB1``
+echo ```````````````````BBBBBBBBBBBBBBBBBBBB1``
+echo ```````````````````BBBBBBBBBBBBBBBBBBBB1``
+echo ```````````````````BBBBBBBBBBBBBBBBBBBB1``
+echo ```````````````````BBBBBBBBBBBBBBBBBBBB1``
+echo ``
+echo "ONE TAPS.."
